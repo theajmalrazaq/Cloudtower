@@ -60,7 +60,7 @@ ul > li > a{
 }
 div > .container{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     height: 100%;
     flex-wrap: wrap-reverse;
@@ -86,18 +86,7 @@ h4{
     max-width: 300px;
     opacity: .5;
 }
-.container_left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-.container_right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-}
+
 .logo_big{
     align-items: end;
 }
@@ -117,7 +106,7 @@ h4{
 .explore{
     width: 120px;
     height: 45px;
-    border-radius: 30px 99px 99px 160px;
+    border-radius:  99px;
     background-color: #DBFF00;
     display: flex;
     justify-content: center;
@@ -131,7 +120,7 @@ h4{
 }
 .section{
    height: 100vh;
-   margin: 70px 30px;
+   margin-top: 130px;
 }
 .welcomeimg{
     border-radius: 99px;
