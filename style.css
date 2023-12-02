@@ -16,7 +16,6 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     scroll-behavior: smooth;
-
 }
 header{
     width: 100%;
@@ -62,7 +61,7 @@ div > .container{
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
    
 }
 h1{
@@ -133,9 +132,17 @@ h4{
 }
 .section{
     height: 100%;
-    margin: 0px 20px;
+   
+  
 }
 .welcomeimg{
     border-radius: 99px;
     opacity: .8;
+}
+p{
+    color: #ffffff;
+    font-family: "SamsungSharpSans";
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 20px;
 }
