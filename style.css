@@ -24,11 +24,10 @@ header{
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 5px;
+    top: 30px;
 }
 header >.container{
     display: flex;
-    margin-top: 40px;
     width:  300px;
     height: 55px;
     border-radius: 99px;
@@ -70,9 +69,7 @@ h1{
     color: #DBFF00;
     font-family: LEMONMILK;
     font-weight: 100;
-    font-size: 2rem;
-    display: flex;
-   align-items: center;
+    font-size: 2.8rem;
 }
 h4{
     color: #ffffff;
@@ -87,22 +84,8 @@ h4{
     opacity: .5;
 }
 
-.logo_big{
-    align-items: end;
-}
-.left_upper{
-    display: flex;
-}
 
-.dot{
-    width: 30px;
-    height: 30px;
-    border-radius: 999px;
-    background-color: #ffffff;
-    position: relative;
-  left: 2px;
-  top: 10px;
-}
+
 .explore{
     width: 100px;
     height: 40px;
@@ -119,20 +102,9 @@ h4{
     cursor: pointer;
 }
 .section{
-   height: 100vh;
    margin-top: 120px;
    display: flex;
    justify-content: center;
    align-items: center;
 }
-.welcomeimg{
-    border-radius: 99px;
-    opacity: .8;
-}
-p{
-    color: #ffffff;
-    font-family: "SamsungSharpSans";
-    font-size: 14px;
-    font-weight: 100;
-    margin-top: 20px;
-}
+
