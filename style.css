@@ -24,6 +24,7 @@ header{
     justify-content: center;
     align-items: center;
     position: fixed;
+    top: 5px;
 }
 header >.container{
     display: flex;
@@ -69,7 +70,7 @@ h1{
     color: #DBFF00;
     font-family: LEMONMILK;
     font-weight: 100;
-    font-size: 60px;
+    font-size: 55px;
     display: flex;
    align-items: center;
 }
@@ -80,8 +81,9 @@ h4{
     font-family: "SamsungSharpSans";
 }
 .logo{
-    width: 340px;
+    width: 100%;
     height: auto;
+    max-width: 300px;
     opacity: .5;
 }
 .container_left{
@@ -129,6 +131,7 @@ h4{
 }
 .section{
    height: 100vh;
+   margin: 70px 30px;
 }
 .welcomeimg{
     border-radius: 99px;
