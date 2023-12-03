@@ -122,5 +122,5 @@ h4{
     border-radius: 16px;
     width: 700px;
     gap: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
