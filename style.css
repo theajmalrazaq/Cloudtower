@@ -6,7 +6,10 @@
     font-family: "SamsungSharpSans";
     src: url(https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/fonts/SamsungSharpSansBd.woff2) format("woff2");
 }
-
+@font-face {
+    font-family: "Recoleta Bold";
+    src: url("https://db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2")format("woff2");
+}
 @font-face {
     font-family: "Product Sans";
     font-style: normal;
@@ -21,6 +24,10 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
+  }
+  @font-face {
+    font-family: LemonMilk;
+    src: url(LEMONMILK-Medium.woff2);
   }
 *{
     margin: 0;
@@ -85,9 +92,8 @@ ul > li > a{
 }
 .home_container > h1{
     color: #DBFF00;
-    font-family: "Recoleta Regular";
-    font-weight: 999;
-    font-size: 4rem;
+    font-family: LemonMilk;
+    font-size: 2.8rem;
 }
 h4{
     color: #ffffff;
@@ -167,7 +173,6 @@ h4{
 }
 .welcome_container_lower > h1{
     font-family: "Recoleta Regular";
-   
     color:#ffffff;
-    font-size: 2rem;
+    font-size: 18px;
 }
