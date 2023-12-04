@@ -124,7 +124,7 @@ h4{
     cursor: pointer;
 }
 .section{
-   margin: 130px 20px;
+   margin: 130px 0px;
    display: flex;
    justify-content: center;
    align-items: center;
