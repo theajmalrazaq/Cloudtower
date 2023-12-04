@@ -93,7 +93,8 @@ ul > li > a{
 .home_container > h1{
     color: #DBFF00;
     font-family: LemonMilk;
-    font-size: 21px;
+    font-size: 25px;
+    font-weight: 100;
 }
 h4{
     color: #ffffff;
