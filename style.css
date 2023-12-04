@@ -122,7 +122,7 @@ h4{
     cursor: pointer;
 }
 .section{
-   margin: 130px 15px;
+   margin: 128px 15px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -160,18 +160,19 @@ h4{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 .welcome_container_lower{
     background-color: rgba(191, 191, 191, 0.5);
     backdrop-filter: blur(10px);
-    padding: 30px;
+    padding: 30px 50px;
     border-radius: 16px;
     width: 600px;
     display: flex;
+    gap: 20px;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    
 }
 .welcome_container_upper{
     display: flex;
@@ -179,14 +180,14 @@ h4{
     align-items: center;
     justify-content: flex-start;
 }
-.welcome_container_lower > h1{
+.welcome_head > h1{
    
     font-family: LemonMilk;
     color:#DBFF00;
     font-size: 2.3rem;
     
 }
-.welcome_container_lower > .welcome_sub_heading{
+.welcome_head > .welcome_sub_heading{
     font-family: "SamsungSharpSans";
     font-weight: 100;
     font-size: 20px;
@@ -207,4 +208,7 @@ h4{
 }
 .welcome_about > ul{
    list-style-type: decimal;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
 }
