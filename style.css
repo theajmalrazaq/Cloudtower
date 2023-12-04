@@ -10,13 +10,9 @@
     font-family: "Recoleta Bold";
     src: url("https://db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2")format("woff2");
 }
-@font-face {
-    font-family: "Product Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/googlesans/v5/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2)
-      format("woff2");
-  }
+                            @import url('https://fonts.cdnfonts.com/css/product-sans');
+
+                
   
   @font-face {
     font-family: "Recoleta Regular";
@@ -66,7 +62,7 @@ header >.container{
 .home{
     height: 100%;
 }
-ul{
+nav > ul{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,15 +157,21 @@ h4{
 .welcome_container{
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
 }
-.welcome_conatiner_lower{
+.welcome_container_lower{
+    background-color: rgba(191, 191, 191, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 16px;
+    width: 600px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 .welcome_container_upper{
     display: flex;
@@ -178,12 +180,13 @@ h4{
     justify-content: flex-start;
 }
 .welcome_container_lower > h1{
-    margin-top: 30px;
+   
     font-family: LemonMilk;
     color:#DBFF00;
     font-size: 2.3rem;
+    
 }
-.welcome_container_lower > p{
+.welcome_container_lower > .welcome_sub_heading{
     font-family: "SamsungSharpSans";
     font-weight: 100;
     font-size: 20px;
@@ -191,4 +194,17 @@ h4{
 }
 .welcome_image{
   border-radius: 19px;
+}
+.welcome_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #181818;
+    font-weight: 400;
+    font-family: 'Product Sans', sans-serif;
+               font-size: 16px;                                 
+}
+.welcome_about > ul{
+   list-style-type: decimal;
 }
