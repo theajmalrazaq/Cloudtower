@@ -362,14 +362,18 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    justify-content: center;
+}
+.footer_upper{
+    display: flex;
+    justify-content: center;
 }
 .footer_container >.footer_upper > .row{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 60px;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
 }
 .footer_container > .footer_upper > .row > .col {
     display: flex;
