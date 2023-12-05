@@ -28,6 +28,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    
 }
 body{
     background-image: url(background.png);
@@ -247,7 +249,7 @@ h4{
     gap: 30px;
    flex-wrap: wrap;
 }
-.row > .col{
+.facilites_container > .row > .col{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -258,4 +260,152 @@ h4{
     backdrop-filter: blur(10px);
     padding: 30px 50px;
     border-radius: 16px;
+}
+.col > h1{
+    font-family: LemonMilk;
+    color:#ffffff;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+.facilites_container > .row >.col > p{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.app_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+.app_container > .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.app_container > .row > .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app_container > .row > .col > button{
+    width: 200px;
+    height: 40px;
+    border-radius:  99px;
+    background-color: rgba(191, 191, 191, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    font-family: "SamsungSharpSans";
+    align-items: center;
+    padding: 0px 0px 0px 5px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.row_card{
+    background-color: rgba(191, 191, 191, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap-reverse;
+    }
+    .row_card > .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        gap: 20px;
+        width: 350px;
+    }
+    .center{
+        align-items: center;
+    }
+    .row_card > .col > p{
+        font-family: 'Product Sans', sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+        text-align: justify;
+        color: #000000;
+    }
+.row_card_img{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 9px;
+   
+}
+.row_card > .col > h3{
+    font-family: LemonMilk;
+    color:#ffffff;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+footer{
+    background-color: rgba(191, 191, 191, 0.5);
+    backdrop-filter: blur(10px); padding: 30px;
+   padding: 30px;
+}
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer_container >.footer_upper > .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer_container > .footer_upper > .row > .col {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+}
+.footer_container > .footer_upper > .row > .col > h2{
+    font-family: LemonMilk;
+    color:#ffffff;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.footer_container > .footer_upper > .row > .col > h3{
+    font-family: "SamsungSharpSans";
+    color:#ffffff;
+    font-weight: 100;
+}
+.footer_container > .footer_upper > .row > .col > ul {
+    list-style: none;
+}
+.footer_container > .footer_upper > .row > .col >  a{
+    font-family: 'Product Sans', sans-serif;
+}
+.footer_container > .footer_lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 19px;
+    color: white;
+    font-family: "SamsungSharpSans";
 }
