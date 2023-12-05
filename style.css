@@ -321,7 +321,7 @@ h4{
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    padding: 18px;
     border-radius: 19px;
     justify-content: center;
     align-items: center;
@@ -372,7 +372,7 @@ footer{
 .footer_container >.footer_upper > .row{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    gap: 30px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -408,4 +408,5 @@ footer{
     border-radius: 19px;
     color: white;
     font-family: "SamsungSharpSans";
+    font-size: 12px;
 }
