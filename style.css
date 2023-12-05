@@ -69,7 +69,7 @@ nav > ul{
     gap: 20px;
     list-style: none;
 }
-ul > li > a{
+ a{
     font-family: "SamsungSharpSans";
     font-size: 14px;
     font-weight: 100;
@@ -107,19 +107,31 @@ h4{
 }
 
 .explore{
-    width: 100px;
+    width: 110px;
     height: 40px;
     border-radius:  99px;
-    background-color: #DBFF00;
+    background-color: rgba(191, 191, 191, 0.5);
+    backdrop-filter: blur(10px);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-family: "SamsungSharpSans";
     align-items: center;
+    padding: 0px 0px 0px 5px;
     margin-top: 20px;
     border: none;
     outline: none;
     font-size: 14px;
     cursor: pointer;
+}
+
+.dot{
+    background-color: #DBFF00;
+    width: 30px;
+    border-radius: 99px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .section{
    margin: 128px 15px;
@@ -211,4 +223,34 @@ h4{
    display: flex;
    flex-direction: column;
    gap: 5px;
+}
+.facilites_container> h1{
+   
+    font-family: LemonMilk;
+    color:#DBFF00;
+    font-size: 2.3rem;
+    
+}
+.facilites_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 128px 15px;
+
+}
+.facilites_container > .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.row > .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 400px;
 }
