@@ -23,7 +23,7 @@
   }
   @font-face {
     font-family: LemonMilk;
-    src: url(LEMONMILK-Medium.woff2);
+    src: url(../fonts/LEMONMILK-Medium.woff2);
   }
 *{
     margin: 0;
@@ -32,7 +32,7 @@
     
 }
 body{
-    background-image: url(background.png);
+    background-image: url(../assest/background.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -293,6 +293,15 @@ h4{
     gap: 25px;
     flex-wrap: wrap;
 }
+.app_container >h1{
+   
+   
+        font-family: LemonMilk;
+        color:#DBFF00;
+        font-size: 2.3rem;
+        
+    
+}
 .app_container > .row > .col{
     display: flex;
     flex-direction: column;
@@ -355,8 +364,9 @@ h4{
 }
 footer{
     background-color: rgba(191, 191, 191, 0.5);
-    backdrop-filter: blur(10px); padding: 30px;
+    backdrop-filter: blur(10px);
    padding: 30px;
+   
 }
 .footer_container{
     display: flex;
@@ -381,16 +391,32 @@ footer{
     align-items: space-between;
     justify-content: center;
 }
-.footer_container > .footer_upper > .row > .col > h2{
+.footer_container > .footer_upper > .row > .col > h1{
     font-family: LemonMilk;
+    color:#DBFF00;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.footer_container > .footer_upper > .row > .col > h2{
+    font-family: "SamsungSharpSans";
     color:#ffffff;
     font-size: 1.5rem;
     font-weight: 100;
+
+}
+.footer_container > .footer_upper > .row > .col > ul > li > a{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: justify;
+    color: #000000;
+
 }
 .footer_container > .footer_upper > .row > .col > h3{
     font-family: "SamsungSharpSans";
     color:#ffffff;
     font-weight: 100;
+    font-size: 14px;
 }
 .footer_container > .footer_upper > .row > .col > ul {
     list-style: none;
@@ -408,4 +434,7 @@ footer{
     color: white;
     font-family: "SamsungSharpSans";
     font-size: 12px;
+}
+.app_container > .row > .col > .active{
+    background: #DBFF00;
 }

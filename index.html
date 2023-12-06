@@ -4,14 +4,15 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Cloud Tower</title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="import" href="LEMONMILK-Medium.woff2">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="import" href="fonts/LEMONMILK-Medium.woff2">
+     
    </head>
    <body>
       <header>
          <div class="container">
             <div id="branding">
-               <img src="logosmall.png" alt="" height="30px">
+               <img src="assest/logosmall.png" alt="" height="30px">
             </div>
             <div class="nav_wrapper">
                <nav>
@@ -26,7 +27,7 @@
       </header>
       <div class="section">
          <div class="home_container">
-            <img src="Logobig.png" alt="" class="logo">
+            <img src="assest/Logobig.png" alt="" class="logo">
             <h1>Cloud Tower</h1>
             <h4>Sky's the Limit: Elevate Your Living</h4>
             <a class="explore" href="#start">Explore<div class="dot">
@@ -70,10 +71,10 @@
       </div>
       <div class="section" >
          <div class="welcome_container">
-            <div class="welcome_container_upper"><img src="pexels-expect-best-323705.jpg" alt="" height="300px" class="welcome_image"></div>
+            <div class="welcome_container_upper"><img src="assest/pexels-expect-best-323705.jpg" alt="" height="300px" class="welcome_image"></div>
             <div class="welcome_container_lower">
                <div class="welcome_head">
-                  <h1>Welcome to Cloud Tower</h1>
+                  <h1>Cloud Tower</h1>
                   <p class="welcome_sub_heading">Buy Luxury Appartments in Lahore</p>
                </div>
                <div class="welcome_about">
@@ -188,12 +189,12 @@
 <div class="app_container">
  <h1>Appartments Plans</h1>
    <div class="row">
-     <div class="col"><button>One Bad appartment</button></div>
-     <div class="col"><button>Two Bed Appartments</button></div>
-     <div class="col"><button>Three Bed Appartments</button></div>
+     <div class="col"><button class="active" id="button_one" onclick="change1()">One Bad appartment</button></div>
+     <div class="col"><button id="button_two" onclick="change2()">Two Bed Appartments</button></div>
+     <div class="col"><button id="button_three" onclick="change3()">Three Bed Appartments</button></div>
       </div>
-<div class="row_card">
- 
+
+<div class="row_card" id="con_one">
 <h3>One bed Appartment</h3>
 <p>Spacious TV Lounge
    Min room size; 12’x14’ excluding wardrobe
@@ -204,8 +205,40 @@
    Service balconies for placement of geyser and kitchen ventilation
    Huge Windows</p>
    
-   <di class="col center"> <img src="One-bed-apartment-1-new.png" alt="bed_1_appartment_photo"  class="row_card_img"></di>
+   <div class="col center"> <img src="assest/One-bed-apartment-1-new.png" alt="bed_1_appartment_photo"  class="row_card_img"></div>
 </div>
+
+
+<div class="row_card" id="con_two" style="display: none;">
+   <h3>Two bed Appartment</h3>
+   <p>Spacious TV lounge
+      Min room size; 12’x14’ excluding Wardrobe
+      All apartments have wide terraces
+      Every room with huge windows
+      Two bed apartments having min size of 1689 sq.ft. up to 2130 sq.ft
+      Kitchens which can be made open or closed on demand
+      Service balconies for placement of geyser and kitchen ventilation
+      Storeroom with every family apartment
+      300 sq.ft. for one car parking included</p>
+      
+      <div class="col center"> <img src="assest/two-bed-apartment-new.png" alt="bed_1_appartment_photo"  class="row_card_img"></div>
+   </div>
+
+
+   <div class="row_card" id="con_three" style="display: none;">
+      <h3>Three bed Appartment</h3>
+      <p>Spacious TV Lounge
+         Min room size; 12’x14’ excluding wardrobe
+         All apartments have wide terraces
+         Beautifully designed washrooms
+         Kitchens which can be made open or closed on demand
+         Service balconies for placement of geyser and kitchen ventilation
+         Huge windows</p>
+         
+         <div class="col center"> <img src="assest/three-bed-apartment-1-1024x707.png" alt="bed_1_appartment_photo"  class="row_card_img"></div>
+      </div>
+
+
 </div>
 </div>
 
@@ -215,7 +248,7 @@
       <div class="footer_upper">  
          <div class="row">
          <div class="col">
-            <h2>Cloud Tower</h2>
+            <h1>Cloud Tower</h1>
             <h3>Head office/Booking office address:</h3>
             <a href="">Office # 1, 2nd Floor, 62-West, Ali Block, New Garden Town, Lahore</a>
          </div>
@@ -246,4 +279,5 @@
 
 </footer>
    </body>
+   <script src="script.js"></script>
 </html>
