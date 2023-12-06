@@ -376,7 +376,6 @@ footer{
 }
 .footer_upper{
     display: flex;
-    justify-content: center;
 }
 .footer_container >.footer_upper > .row{
     display: flex;
@@ -391,20 +390,20 @@ footer{
     align-items: space-between;
     justify-content: center;
 }
-.footer_container > .footer_upper > .row > .col > h1{
+.footer_container > .footer_upper > .row > .col > .col_upper >h1{
     font-family: LemonMilk;
     color:#DBFF00;
     font-size: 2rem;
     font-weight: 100;
 }
-.footer_container > .footer_upper > .row > .col > h2{
+.footer_container > .footer_upper > .row > .col >.col_address > h2{
     font-family: "SamsungSharpSans";
     color:#ffffff;
     font-size: 1.5rem;
     font-weight: 100;
 
 }
-.footer_container > .footer_upper > .row > .col > ul > li > a{
+.footer_container > .footer_upper > .row > .col > .col_address > ul > li > a{
     font-family: 'Product Sans', sans-serif;
     font-weight: 100;
     font-size: 16px;
@@ -412,7 +411,15 @@ footer{
     color: #000000;
 
 }
-.footer_container > .footer_upper > .row > .col > h3{
+.footer_container > .footer_upper > .row > .col > p{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: justify;
+    color: #000000;
+
+}
+.footer_container > .footer_upper > .row > .col > .col_address> h3{
     font-family: "SamsungSharpSans";
     color:#ffffff;
     font-weight: 100;
@@ -437,4 +444,8 @@ footer{
 }
 .app_container > .row > .col > .active{
     background: #DBFF00;
+}
+.colfull{
+    justify-content: space-between;
+    gap: 40px;
 }
