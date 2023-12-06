@@ -50,7 +50,7 @@ header{
 }
 header >.container{
     display: flex;
-    width:  320px;
+    width:  370px;
     height: 55px;
     border-radius: 99px;
     background-color: rgba(191, 191, 191, 0.5);
@@ -94,6 +94,17 @@ nav > ul{
     font-family: LemonMilk;
     font-size: 2.3rem;
     font-weight: 100;
+}
+.home_container > p{
+   font-family: "Product Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 1000px;
+
+
 }
 h4{
     color: #ffffff;
@@ -448,4 +459,35 @@ footer{
 .colfull{
     justify-content: space-between;
     gap: 40px;
+}
+.team_container >  h1 {
+    font-family: LemonMilk;
+    color:#DBFF00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    font-weight: 100;
+}
+.team_container > .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+   flex-wrap: wrap;
+
+}
+.team_container > .row > .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 350px;
+    background-color: rgba(191, 191, 191, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 30px 50px;
+    border-radius: 16px;
 }
