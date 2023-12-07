@@ -1,26 +1,8 @@
-@font-face {
-    font-family: "Recoleta Regular";
-    src: url(LEMONMILK-Medium.woff2) format("woff2")
-}
+
 @font-face {
     font-family: "SamsungSharpSans";
     src: url(https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/fonts/SamsungSharpSansBd.woff2) format("woff2");
 }
-@font-face {
-    font-family: "Recoleta Bold";
-    src: url("https://db.onlinewebfonts.com/t/f4d849075c9b4c0047fc56a828879854.woff2")format("woff2");
-}
-                            @import url('https://fonts.cdnfonts.com/css/product-sans');
-
-                
-  
-  @font-face {
-    font-family: "Recoleta Regular";
-    src: url(https://nmanumr.com/fonts/Recoleta-Regular.woff2) format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
   @font-face {
     font-family: LemonMilk;
     src: url(../fonts/LEMONMILK-Medium.woff2);
@@ -50,7 +32,7 @@ header{
 }
 header >.container{
     display: flex;
-    width:  370px;
+    width:  310px;
     height: 55px;
     border-radius: 99px;
     background-color: rgba(191, 191, 191, 0.5);
@@ -70,8 +52,9 @@ nav > ul{
     justify-content: center;
     gap: 20px;
     list-style: none;
+    
 }
- a{
+ nav > ul > li >a, .home_container > a{
     font-family: "SamsungSharpSans";
     font-size: 14px;
     font-weight: 100;
@@ -98,9 +81,8 @@ nav > ul{
 .home_container > p{
    font-family: "Product Sans", sans-serif;
     font-size: 16px;
-    font-weight: 100;
     color: #ffffff;
-    text-align: center;
+    text-align: justify;
     margin-top: 20px;
     max-width: 1000px;
 
@@ -209,7 +191,7 @@ h4{
    
     font-family: LemonMilk;
     color:#DBFF00;
-    font-size: 2.3rem;
+    font-size: 2rem;
     
 }
 .welcome_head > .welcome_sub_heading{
@@ -256,7 +238,7 @@ h4{
 .facilites_container > .row{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
    flex-wrap: wrap;
 }
@@ -266,10 +248,10 @@ h4{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    width: 350px;
+    width: 317px;
     background-color: rgba(191, 191, 191, 0.5);
     backdrop-filter: blur(10px);
-    padding: 30px 50px;
+    padding: 30px 20px;
     border-radius: 16px;
 }
 .col > h1{
@@ -379,14 +361,24 @@ footer{
    padding: 30px;
    
 }
+footer a{
+    font-family: product sans;
+
+    font-weight: 100;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
 .footer_container{
     display: flex;
     flex-direction: column;
     gap: 30px;
     justify-content: center;
+   
 }
 .footer_upper{
     display: flex;
+    justify-content: center;
 }
 .footer_container >.footer_upper > .row{
     display: flex;
@@ -407,13 +399,14 @@ footer{
     font-size: 2rem;
     font-weight: 100;
 }
-.footer_container > .footer_upper > .row > .col >.col_address > h2{
+.footer_container > .footer_upper > .row > .col  h2{
     font-family: "SamsungSharpSans";
     color:#ffffff;
     font-size: 1.5rem;
     font-weight: 100;
 
 }
+
 .footer_container > .footer_upper > .row > .col > .col_address > ul > li > a{
     font-family: 'Product Sans', sans-serif;
     font-weight: 100;
@@ -439,9 +432,7 @@ footer{
 .footer_container > .footer_upper > .row > .col > ul {
     list-style: none;
 }
-.footer_container > .footer_upper > .row > .col >  a{
-    font-family: 'Product Sans', sans-serif;
-}
+
 .footer_container > .footer_lower {
     display: flex;
     justify-content: center;
@@ -460,34 +451,52 @@ footer{
     justify-content: space-between;
     gap: 40px;
 }
-.team_container >  h1 {
-    font-family: LemonMilk;
-    color:#DBFF00;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.3rem;
+
+.newsletter p{
+    font-family: product sans;
+    color:#000000;
+
     font-weight: 100;
 }
-.team_container > .row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-   flex-wrap: wrap;
-
-}
-.team_container > .row > .col{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    width: 350px;
+input[type="email"]{
+    width: 300px;
+    height: 40px;
+    border-radius:  99px;
     background-color: rgba(191, 191, 191, 0.5);
     backdrop-filter: blur(10px);
-    padding: 30px 50px;
-    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "SamsungSharpSans";
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+input[type="submit"]{
+    width: 110px;
+    height: 40px;
+    border-radius:  99px;
+    background-color: #DBFF00;
+    display: flex;
+    justify-content: space-around;
+    font-family: "SamsungSharpSans";
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #ffffff;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
