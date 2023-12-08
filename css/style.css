@@ -87,7 +87,6 @@ form {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
 }
 
@@ -218,6 +217,7 @@ h4 {
     padding: 30px;
     border-radius: 16px;
     width: 700px;
+    min-width: 330px;
     gap: 20px;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -250,6 +250,7 @@ h4 {
     padding: 30px 50px;
     border-radius: 16px;
     width: 600px;
+    min-width: 330px;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -320,7 +321,8 @@ h4 {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    width: 317px;
+    width: 330px;
+    min-width: 330px;
     background-color: rgba(191, 191, 191, 0.5);
     backdrop-filter: blur(10px);
     padding: 30px 20px;
@@ -400,6 +402,7 @@ h4 {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    min-width: 330px;
     max-width: 700px;
 }
 
@@ -551,7 +554,7 @@ footer a {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    width: 350px;
+    width: 330px;
     background-color: rgba(191, 191, 191, 0.5);
     backdrop-filter: blur(10px);
     padding: 30px 50px;
@@ -604,6 +607,7 @@ footer a {
     justify-content: center;
     align-items: center;
     gap: 25px;
+    width: 330px;
     flex-wrap: wrap;
 }
 
@@ -626,7 +630,7 @@ footer a {
     background-color: rgba(191, 191, 191, 0.5);
     backdrop-filter: blur(10px);
     padding: 30px;
-    width: 300px;
+    width: 330px;
     border-radius: 16px;
     height: 248px;
 }
@@ -659,6 +663,7 @@ footer a {
     backdrop-filter: blur(10px);
     padding: 30px 20px;
     flex-wrap: wrap;
+    min-width: 330px;
     border-radius: 16px;
 }
 .contact_container > .row > form>.col {
@@ -667,6 +672,9 @@ footer a {
     align-items: center;
     justify-content: center;
     border-radius: 16px;
+}
+.contact_container > .row > form{
+    justify-content: center;
 }
 .contact_container {
     display: flex;
