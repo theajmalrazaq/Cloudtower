@@ -38,3 +38,25 @@ function subscribe(){
         alert("Thank you for subscribing");
     }
 }
+
+function send(){
+    let name = document.getElementById('name').value;
+    let email = document.getElementById('email_2').value;
+    let subject = document.getElementById('subject').value;
+    let message = document.getElementById('message').value;
+    if(name == ""){
+        alert("Please enter your name");
+    }
+    else if(email == ""){
+        alert("Please enter your email");
+    }
+    else if(subject == ""){
+        alert("Please enter your subject");
+    }
+    else if(message == ""){
+        alert("Please enter your message");
+    }
+    else{
+        alert("Thank you for your message");
+    }
+}
