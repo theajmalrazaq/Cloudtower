@@ -29,3 +29,12 @@ function change1(){
         con_3.style.display="";
         btn_3.classList.add('active');
     }
+function subscribe(){
+    let email = document.getElementById('email').value;
+    if(email == ""){
+        alert("Please enter your email");
+    }
+    else{
+        alert("Thank you for subscribing");
+    }
+}

@@ -5,8 +5,21 @@
 }
 @font-face {
     font-family: LemonMilk;
-    src: url(../fonts/LEMONMILK-Medium.woff2);
+    src: url(../fonts/LEMONMILK-Medium.woff2) format("woff2");
 }
+@font-face {
+  font-family: 'Product Sans Black';
+    src: url(../fonts/ProductSans-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Product Sans Regular';
+      src: url(../fonts/ProductSans-Regular.woff) format('woff')
+      
+  }
+  @font-face {
+    font-family: 'Product Sans Medium';
+      src: url(../fonts/ProductSans-Medium.woff) format('woff');
+  }          
 
 /* Universal selector */
 
@@ -85,7 +98,6 @@ input[type="submit"]:hover {
 form {
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -156,7 +168,7 @@ nav > ul > li > a {
     font-weight: 100;
 }
 .home_container > p {
-    font-family: "Product Sans", sans-serif;
+font-family: 'Product Sans Regular', sans-serif;
     font-size: 16px;
     color: #ffffff;
     text-align: center;
@@ -282,8 +294,7 @@ h4 {
     align-items: center;
     justify-content: center;
     color: #181818;
-    font-weight: 400;
-    font-family: "Product Sans", sans-serif;
+    font-family: 'Product Sans Regular', sans-serif;
     font-size: 16px;
 }
 .welcome_about > ul {
@@ -335,7 +346,7 @@ h4 {
     font-weight: 100;
 }
 .facilites_container > .row > .col > p {
-    font-family: "Product Sans", sans-serif;
+ font-family: 'Product Sans Regular', sans-serif;
     font-weight: 100;
     font-size: 16px;
     text-align: center;
@@ -410,7 +421,7 @@ h4 {
     align-items: center;
 }
 .row_card > p {
-    font-family: "Product Sans", sans-serif;
+ font-family: 'Product Sans Regular', sans-serif;
     font-weight: 100;
     font-size: 16px;
     text-align: justify;
@@ -437,7 +448,7 @@ footer {
     padding: 30px;
 }
 footer a {
-    font-family: product sans;
+    font-family: 'Product Sans Regular', sans-serif;
 
     font-weight: 100;
     color: #000000;
@@ -481,14 +492,14 @@ footer a {
 }
 
 .footer_container > .footer_upper > .row > .col > .col_address > ul > li > a {
-    font-family: "Product Sans", sans-serif;
+ font-family: 'Product Sans Regular', sans-serif;
     font-weight: 100;
     font-size: 16px;
     text-align: justify;
     color: #000000;
 }
 .footer_container > .footer_upper > .row > .col > p {
-    font-family: "Product Sans", sans-serif;
+ font-family: 'Product Sans Regular', sans-serif;
     font-weight: 100;
     font-size: 16px;
     text-align: justify;
@@ -498,7 +509,7 @@ footer a {
     font-family: "SamsungSharpSans";
     color: #ffffff;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 1.5rem;
 }
 .footer_container > .footer_upper > .row > .col > ul {
     list-style: none;
@@ -522,7 +533,7 @@ footer a {
 }
 
 .newsletter p {
-    font-family: product sans;
+    font-family: 'Product Sans Regular', sans-serif;
     color: #000000;
 
     font-weight: 100;
@@ -579,7 +590,7 @@ footer a {
     font-weight: 100;
 }
 .team_container > .row > .col > p {
-    font-family: "Product Sans", sans-serif;
+ font-family: 'Product Sans Regular', sans-serif;
     font-weight: 100;
     font-size: 16px;
     text-align: center;
@@ -607,7 +618,6 @@ footer a {
     justify-content: center;
     align-items: center;
     gap: 25px;
-    width: 330px;
     flex-wrap: wrap;
 }
 
@@ -618,7 +628,7 @@ footer a {
     font-weight: 100;
 }
 .testimonials_container > .row > .col > p {
-    font-family: "Product Sans", sans-serif;
+ font-family: 'Product Sans Regular', sans-serif;
     font-weight: 100;
     font-size: 16px;
     text-align: justify;
@@ -656,9 +666,6 @@ footer a {
 .contact_container > .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
     background-color: rgba(191, 191, 191, 0.5);
     backdrop-filter: blur(10px);
     padding: 30px 20px;
@@ -669,12 +676,11 @@ footer a {
 .contact_container > .row > form>.col {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     border-radius: 16px;
 }
-.contact_container > .row > form{
-    justify-content: center;
+
+.contact_container > .row > form > .col > input[type="submit"] {
+    width: 130px;
 }
 .contact_container {
     display: flex;
@@ -698,6 +704,4 @@ textarea {
     font-size: 14px;
     resize: none; /* This will make the textarea unresizable */
 }
-.contact_container > .row > form > .col > input[type="submit"] {
-    width: 130px;
-}
+
