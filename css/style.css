@@ -7,19 +7,12 @@
     font-family: LemonMilk;
     src: url(../fonts/LEMONMILK-Medium.woff2) format("woff2");
 }
-@font-face {
-  font-family: 'Product Sans Black';
-    src: url(../fonts/ProductSans-Bold.woff) format('woff');
-}
+
 @font-face {
     font-family: 'Product Sans Regular';
       src: url(../fonts/ProductSans-Regular.woff) format('woff')
       
-  }
-  @font-face {
-    font-family: 'Product Sans Medium';
-      src: url(../fonts/ProductSans-Medium.woff) format('woff');
-  }          
+  }         
 
 /* Universal selector */
 
