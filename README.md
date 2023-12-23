@@ -13,7 +13,7 @@ This project serves as the final semester project for the Information and Commun
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing))
+- [Contributing](#contributing)
 
 ## Features
 
